@@ -1,0 +1,21 @@
+[
+  {
+    "nombre": "Báltico",
+    "descripcion": "Mdf línea Nórdica color: Báltico. Medidas: 18 mm 2.75 x 1.83",
+    "imagen": "../images/placaBaltico.jpg",
+    "precio": 104500
+  },
+  {
+    "nombre": "Paraíso",
+    "descripcion": "Mdf línea Mesopotamia color: Paraíso.  Medidas: 18 mm 2.75 x 1.83",
+    "imagen": "../images/placaParaiso.jpg",
+    "precio": 104500
+  },
+  {
+    "nombre":"Pinot Gris",
+    "descripcion": "Mdf línea Blend color: Pinot Gris. Medidas : 18 mm 2.75 x 1.83",
+    "imagen": "../images/placaPinotGris.jpg",
+    "precio": 104500
+  }
+ 
+]

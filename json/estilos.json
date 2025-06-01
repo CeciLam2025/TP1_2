@@ -1,0 +1,21 @@
+[
+  {
+    "nombre": "Varillas Decorativas",
+    "descripcion": "Revestimiento alistonado varilla de 1 x 6 x 2.40 mt",
+    "imagen": "../images/varillado.jpg",
+    "precio": 10440
+  },
+  {
+    "nombre": "Varillas Decorativas",
+    "descripcion": "Revestimiento alistonado varilla de 1 x 6 x 2.70 mt",
+    "imagen": "../images/varillado.jpg",
+    "precio": 11720
+  },
+  {
+    "nombre":"Deck",
+    "descripcion": "Deck de eucalipto natural ml",
+    "imagen": "../images/deck.jpg",
+    "precio": 2200
+  }
+ 
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Bisagra",
+    "descripcion": "Bisagra 35 mm codo 0 c/base",
+    "imagen": "../images/Bisagra.jpg",
+    "precio": 540
+  },
+
+  {
+    "nombre": "Corredera",
+    "descripcion": "Corredera telescópica 45 mm 350 mm",
+    "imagen": "../images/corredera.jpg",
+    "precio": 4200
+  },
+
+  {
+    "nombre": "Soporte alacena",
+    "descripcion": "Soporte alacena c/alas blanco",
+    "imagen": "../images/sopAlacenaCAlas.jpg",
+    "precio": 800
+  },
+
+  {
+    "nombre": "Manija barral",
+    "descripcion": "Manija barral L aluminio 96 mm",
+    "imagen": "../images/manijaTiradorBarral.jpg",
+    "precio": 1900
+  }
+
+
+
+]
