@@ -45,22 +45,25 @@
             const email = document.getElementById('txtEmail').value.trim();
             const password = document.getElementById('txtPassword').value.trim();
 
-            // Usuario registrado (simulado)
-            const usuarioRegistrado = {
-                email: "lambertuccicecilia@gmail.com",
-                password: "1234",
-            };
+            // Traemos el usuario guardado en localStorage (desde formulario.html)
+            const usuarioGuardadoJSON = localStorage.getItem("usuarioRegistrado");
+            if (!usuarioGuardadoJSON) {
+                alert("No hay usuarios registrados. Por favor, registrate primero.");
+                // Opcional: redirigir al registro
+                window.location.href = "formulario.html";
+                return;
+            }
 
-            if (email === usuarioRegistrado.email && password === usuarioRegistrado.password) {
-                // Guardamos el estado de sesión
+            const usuarioGuardado = JSON.parse(usuarioGuardadoJSON);
+
+            // Comparamos el email y password ingresados con los guardados
+            if (email === usuarioGuardado.email && password === usuarioGuardado.password) {
+                // Guardamos estado de sesión
                 localStorage.setItem("logueado", "true");
-                // Redirigimos al inicio
+                // Redirigimos a la página principal
                 window.location.href = "../index.html";
             } else {
-                // Mostramos alerta sin redirigir
                 alert("Usuario o contraseña incorrectos");
-                // Si querés redirigir al registro:
-                // window.location.href = "formulario.html";
             }
         });
     </script>
