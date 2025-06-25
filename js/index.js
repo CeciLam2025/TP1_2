@@ -8,7 +8,7 @@ const navElements = [
 
 // Función global para cerrar sesión
 window.cerrarSesion = function () {
-  localStorage.removeItem("logueado");
+  sessionStorage.removeItem("logueado");
   window.location.href = "/pags/login.html";
 };
 

@@ -46,7 +46,7 @@
             const password = document.getElementById('txtPassword').value.trim();
 
             // Traemos el usuario guardado en localStorage (desde formulario.html)
-            const usuarioGuardadoJSON = localStorage.getItem("usuarioRegistrado");
+            const usuarioGuardadoJSON = sessionStorage.getItem("usuarioRegistrado");
             if (!usuarioGuardadoJSON) {
                 alert("No hay usuarios registrados. Por favor, registrate primero.");
                 // Opcional: redirigir al registro
@@ -59,7 +59,7 @@
             // Comparamos el email y password ingresados con los guardados
             if (email === usuarioGuardado.email && password === usuarioGuardado.password) {
                 // Guardamos estado de sesión
-                localStorage.setItem("logueado", "true");
+                sessionStorage.setItem("logueado", "true");
                 // Redirigimos a la página principal
                 window.location.href = "../index.html";
             } else {

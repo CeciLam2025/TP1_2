@@ -6,9 +6,12 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
 
     // Validación simple (usuario y contraseña fijas)
     if (usuario === "lambertuccicecilia@gmail.com" && contraseña === "1234") {
-        localStorage.setItem("logueado", "true");
+        sessionStorage.setItem("logueado", "true");
         window.location.href = "../index.html";
     } else {
         alert("Usuario o contraseña incorrectos");
     }
-});
+}); 
+
+
+

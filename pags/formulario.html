@@ -66,7 +66,7 @@
                 fechaNacimiento
             };
 
-               localStorage.setItem("usuarioRegistrado", JSON.stringify(nuevoUsuario));
+               sessionStorage.setItem("usuarioRegistrado", JSON.stringify(nuevoUsuario));
                alert("Registro exitoso. Iniciá sesión.");
                window.location.href = "login.html";
             });
