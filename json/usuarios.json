@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "Sergio",
+    "apellido": "Gómez",
+    "eMail": "sergiohgomez54@gmail.com",
+    "contrasena": "1234",
+    "fechaNac": "22-06-1968"
+  },
+  {
+   "nombre": "Maximiliano",
+    "apellido": "Echeverria",
+    "eMail": "maxiecheverria@gmail.com",
+    "contrasena": "5678",
+    "fechaNac": "10-11-1980"
+  },
+  {
+    "nombre": "Ana Belén",
+    "apellido": "Pérez",
+    "eMail": "ana5005perez@gmail.com",
+    "contrasena": "2468",
+    "fechaNac": "10-10-1990"
+  },
+ {
+    "nombre": "Diego",
+    "apellido": "León",
+    "eMail": "dleonnnn@gmail.com",
+    "contrasena": "1359",
+    "fechaNac": "02-06-1999"
+  }
+]

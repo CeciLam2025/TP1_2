@@ -2,8 +2,8 @@ const navElements = [
   { title: "Home", link: "/index.html" },
   { title: "Placas", link: "/pags/categoria1.html" },
   { title: "Herrajes", link: "/pags/categoria2.html" },
-  { title: "Estilos", link: "/pags/categoria3.html" },
-  { title: "Comprar", link: "/pags/login.html" }
+  { title: "Estilos", link: "/pags/categoria3.html" },  
+  { title: "🛒 Carrito", link: "/pags/carrito.html" }
 ];
 
 // Función global para cerrar sesión
